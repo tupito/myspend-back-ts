@@ -35,3 +35,5 @@ npx tsc init
 npm run start
 npm run build
 ```
+
+* tsnode in 2020: https://markpollmann.com/typescript-node

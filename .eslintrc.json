@@ -1,7 +1,9 @@
+// https://scotch.io/tutorials/linting-and-formatting-with-eslint-in-vs-code
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "mocha": true
     },
     "extends": [
         "airbnb-base"
