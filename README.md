@@ -14,3 +14,24 @@ https://hub.docker.com/_/mariadb
 ```bash
 sudo docker-compose up -d
 ```
+
+
+# other
+
+## nvm
+
+https://github.com/nvm-sh/nvm#installing-and-updating
+
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+
+## express + typescript
+
+https://blog.logrocket.com/typescript-with-node-js-and-express/
+
+```bash
+npm init
+npx tsc init
+
+npm run start
+npm run build
+```
