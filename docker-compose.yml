@@ -11,6 +11,9 @@ services:
      - MYSQL_DATABASE=myspend
     ports:
       - 3306:3306
+    # db-data to proj folder (tested, for the future...)  
+    # volumes:
+    #  - ./data/db:/var/lib/mysql
 
   adminer:
     image: adminer
