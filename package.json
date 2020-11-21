@@ -1,12 +1,16 @@
 {
   "name": "myspend-back-ts",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
     "test": "env TS_NODE_PROJECT=\"tsconfig.testing.json\" mocha --require ts-node/register 'tests/**/*.test.ts'",
     "start": "nodemon ./src/index.ts",
-    "build": "tsc --project ./"
+    "build": "tsc --project ./",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "repository": {
     "type": "git",
@@ -41,6 +45,7 @@
     "eslint-plugin-import": "^2.22.1",
     "mocha": "^8.2.1",
     "nodemon": "^2.0.6",
+    "standard-version": "^9.0.0",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.5"
   }

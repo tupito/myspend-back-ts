@@ -89,3 +89,13 @@ build:, chore:, ci:, docs:, style:, refactor:, perf:, test:, and others.
 * feat: a commit of the type feat introduces a new feature to the codebase (this correlates with MINOR in semantic versioning).
 * BREAKING CHANGE: appends a ! after the type/scope, introduces a breaking API change (correlating with MAJOR in semantic versioning). A BREAKING CHANGE can be part of commits of any type.
 ```
+
+## validate git commit msg / generate changelog
+https://www.mokkapps.de/blog/how-to-automatically-generate-a-helpful-changelog-from-your-git-commit-messages/
+
+```
+npm run release -- --first-release
+npm run release:major
+npm run release:minor
+npm run release:patch
+```
