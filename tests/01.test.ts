@@ -2,7 +2,7 @@
 
 import * as chai from 'chai';
 import 'chai-http';
-import app from '../index';
+import app from '../src/index';
 // const server = require('../app');
 
 // Assertions

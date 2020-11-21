@@ -8,7 +8,7 @@ services:
     restart: always
     environment:
      - MYSQL_ROOT_PASSWORD=example
-     - MYSQL_DATABASE=myspend
+     - MYSQL_DATABASE=myspend_dev
     ports:
       - 3306:3306
     # db-data to proj folder (tested, for the future...)  

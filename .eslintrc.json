@@ -17,6 +17,23 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "no-console": "off"      // ignore "Unexpected console statement"
-    }
+        "no-console": "off" ,     // ignore "Unexpected console statement"
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+              "js": "never",
+              "jsx": "never",
+              "ts": "never",
+              "tsx": "never"
+            }
+         ]
+    },
+    "settings": {
+        "import/resolver": {
+          "node": {
+            "extensions": [".js", ".jsx", ".ts", ".tsx"]
+          }
+        }
+      }
 }
