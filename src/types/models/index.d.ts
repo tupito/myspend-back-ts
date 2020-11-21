@@ -4,6 +4,19 @@ import { Model, BuildOptions } from 'sequelize';
 export interface EventAttributes {
     id: number;
     archivingidentifier: string;
+    postingdate: Date;
+    valuedate: Date;
+    amount: number;
+    amounttopay: number;
+    type: number;
+    legend: string;
+    receiverorpayer: string;
+    accountnumber: string;
+    reference: string;
+    message: string;
+    owncomment: string;
+    visa: boolean;
+    subcategoryid: number;
     createdAt?: Date;
     updatedAt?: Date;
 }

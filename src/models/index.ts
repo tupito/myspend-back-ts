@@ -29,4 +29,4 @@ export const dbConfig = new Sequelize(
   },
 );
 // THIS ONES ARE THE ONES YOU NEED TO USE ON YOUR CONTROLLERS
-export const User = EventFactory(dbConfig);
+export const Event = EventFactory(dbConfig);
